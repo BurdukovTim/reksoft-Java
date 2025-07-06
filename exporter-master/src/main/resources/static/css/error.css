@@ -1,0 +1,25 @@
+.error-box {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #ffecec;
+    color: #a94442;
+    border: 1px solid #f5c6cb;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.error-box h2 {
+    margin-bottom: 15px;
+}
+
+.error-box a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #31708f;
+    text-decoration: none;
+}
+
+.error-box a:hover {
+    text-decoration: underline;
+}

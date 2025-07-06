@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Отчёты</title>
+    <link rel="stylesheet" href="/css/report.css">
+</head>
+<body>
+<div class="container">
+    <h1>Скачать CSV-отчёт по игрокам</h1>
+    <form method="get" action="/report/player/download">
+        <button type="submit">Скачать отчёт</button>
+    </form>
+    <h1>Скачать CSV-отчёт по командам</h1>
+    <form method="get" action="/report/team/download">
+        <button type="submit">Скачать отчёт</button>
+    </form>
+    <div class="footer">
+        &copy; Reksoft.com 2025
+    </div>
+</div>
+</body>
+</html>
